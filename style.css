@@ -5,7 +5,7 @@ p {
     line-height: 1.5;  
   }
 h1 {
-    font-size: 50px;
+    font-size: 3.2em;
 }
 h2 {
      text-transform: uppercase;
@@ -15,6 +15,7 @@ h2 {
      1px 1px 0 #c63d2b,
      1px -1px 0 #42afac,
      -1px -1px 0 #c6c23f;
+     font-size: 2.2em;
   }
 
 .citation_head {
@@ -24,6 +25,7 @@ h2 {
 
 body {
     background-color: #262626;
+
 }
 
 header {
@@ -74,6 +76,7 @@ ul li::marker {
 
 h3 {
     margin-left: 80px;
+    font-size: 1.8em;
     text-shadow: -1px 1px 0 #41ba45,
     1px 1px 0 #c63d2b,
     1px -1px 0 #42afac,
@@ -106,7 +109,7 @@ a {
 
 .team_title {
     color:white;
-    font-size: 35px;
+    font-size: 2.2em;
     text-shadow: -1px 1px 0 #41ba45,
 	1px 1px 0 #c63d2b,
 	1px -1px 0 #42afac,
@@ -131,4 +134,8 @@ a {
 
 p.dark {
     color: #262626;
+}
+
+.tablefirst {
+    padding-top: 30px;
 }
