@@ -1,26 +1,44 @@
 p {
-    margin-right: 150px;
-    margin-left: 80px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: white;
+    line-height: 1.5;  
   }
-
+h1 {
+    font-size: 50px;
+}
 h2 {
      text-transform: uppercase;
-     color: #262626;
+     color: #ffff;
      margin-left: 50px;
+     text-shadow: -1px 1px 0 #41ba45,
+     1px 1px 0 #c63d2b,
+     1px -1px 0 #42afac,
+     -1px -1px 0 #c6c23f;
   }
 
+.citation_head {
+    color: #262626;
+    font-weight: bold;
+}
+
+body {
+    background-color: #262626;
+}
+
 header {
-    background-color :#262626;
     text-align: center;
-    color: #ffffff; 
-    padding-top: 50px;
-    padding-bottom: 50px;
+    background-image: url(background.jpeg);
+    color: #262626; 
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
 img {
     height: auto;
-    max-width: 400px;
+    max-width: 300px;
     float: right;
+    display: block;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 10px;
     animation-name: fade_img;
@@ -33,36 +51,53 @@ img {
 
 table {
         border-collapse: collapse;
-        margin: 25px 0;
+        color: white;
         font-size: 0.9em;
         min-width: 400px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
         margin-left: 80px;
+        border-style: solid;
+        border-color: hotpink;
     }
+    th, td {
+        padding: 10px;
+      }
 
 ul {
     margin-left: 80px;
+    line-height: 2;
+}
+
+ul li::marker {
+    color: hotpink;
 }
 
 h3 {
     margin-left: 80px;
+    text-shadow: -1px 1px 0 #41ba45,
+    1px 1px 0 #c63d2b,
+    1px -1px 0 #42afac,
+    -1px -1px 0 #c6c23f;
+    color: white;
+}
+
+.morale {
+font-style: italic;
 }
 
 footer {
     background-color: #262626;
+    padding-top : 5px;
+    padding-bottom: 5px;
     text-align: center;
-    color: white;
-    text-transform: bold; 
+    color: white; 
 }
 
 .align {
     display: flex;
-    background: #262626;
-    background-size: auto;
-    color: white;
+    color: #262626;
     padding-top: 20px;
-    padding-bottom: 20px;
-   
+    padding-bottom: 20px;  
   }
 
 a {
@@ -70,5 +105,30 @@ a {
   }
 
 .team_title {
+    color:white;
+    font-size: 35px;
+    text-shadow: -1px 1px 0 #41ba45,
+	1px 1px 0 #c63d2b,
+	1px -1px 0 #42afac,
+	-1px -1px 0 #c6c23f;
+}
+
+.hobbies {
     color: white;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    color: #262626;
+}
+
+p.dark {
+    color: #262626;
 }
